@@ -12,41 +12,39 @@ body {
 	           
    }
 
-   .card {
-	     margin:0 auto;
-	       width:600px;
-	         height:300px;
-		   border-radius:50px;
-		     /*border: 0px solid #999999;*/
-		     box-shadow: 5px 5px 20px #5555555;
-		       background-color:#FFF;
-	       }
+.card {
+	margin:auto auto;
+	width:600px;
+	height:300px;
+       	border-radius:50px;
+	box-shadow: 5px 5px 20px #5555555;
+	background-color:#FFF;
+}
 
-	       .card-picture {
-		         display:block;
-			   text-align:center;
-			     padding-top:30px;
-		     }
+.card-picture {
+	display:block;
+	text-align:center;
+	padding-top:30px;
+}
 
-		     .card-picture img {
-			         border-radius: 50%;
-				   -moz-border-radius: 50%;
-				     -webkit-border-radius: 50%;
-			     }
+.card-picture img {
+	border-radius: 50%;
+	  -moz-border-radius: 50%;
+	  -webkit-border-radius: 50%;
+}
 
-			     .card-name {
-				       padding-top:10px;
-				         font-family:Julius Sans One;
-					   /*font-family:Lato;*/
-					   width:100%;
-					     text-align:center;
-					       display:block;
-				       }
+.card-name {
+	padding-top:10px;
+	font-family:Julius Sans One;
+	width:100%;
+	text-align:center;
+	display:block;
+}
 
-				       .card-desc {
-					         margin-top:5px;
-						   font-size:14pt;
-						     width:100%;
-						       text-align:center;
-						         display:block;
-						 }
+.card-desc {
+	margin-top:5px;
+	font-size:14pt;
+	width:100%;
+	text-align:center;
+	display:block;
+}
