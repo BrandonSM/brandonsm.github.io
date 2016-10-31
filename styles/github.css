@@ -13,12 +13,14 @@ body {
    }
 
 .card {
-	margin:auto auto;
 	width:600px;
 	height:300px;
        	border-radius:50px;
 	box-shadow: 5px 5px 20px #5555555;
 	background-color:#FFF;
+	-webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
 }
 
 .card-picture {
