@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+body {
+	 font-family:Julius Sans One;
+	   font-size:24pt; 
+
+	   background: #bdc3c7; /* fallback for old browsers */
+	   background: -webkit-linear-gradient(to left, #bdc3c7 , #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+	   background: linear-gradient(to left, #bdc3c7 , #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	           
+   }
+
+   .card {
+	     margin:0 auto;
+	       width:600px;
+	         height:300px;
+		   border-radius:50px;
+		     /*border: 0px solid #999999;*/
+		     box-shadow: 5px 5px 20px #5555555;
+		       background-color:#FFF;
+	       }
+
+	       .card-picture {
+		         display:block;
+			   text-align:center;
+			     padding-top:30px;
+		     }
+
+		     .card-picture img {
+			         border-radius: 50%;
+				   -moz-border-radius: 50%;
+				     -webkit-border-radius: 50%;
+			     }
+
+			     .card-name {
+				       padding-top:10px;
+				         font-family:Julius Sans One;
+					   /*font-family:Lato;*/
+					   width:100%;
+					     text-align:center;
+					       display:block;
+				       }
+
+				       .card-desc {
+					         margin-top:5px;
+						   font-size:14pt;
+						     width:100%;
+						       text-align:center;
+						         display:block;
+						 }
